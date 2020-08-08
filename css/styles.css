@@ -9,25 +9,34 @@ body{
 .signup{
     border: 1px solid;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 10px;
     padding: 30px;
     background: white;
     border-radius: 2px;
     padding: 20px;
     margin-left: 180x;
-    width: 600px;
+    width: 450px;
     color: grey;
+    height: 800px;
 }
 #signupForm{
     font-size: 20px;
     font-weight: normal;
     color: #404040;
     line-height: 25px;
-    padding-bottom: 6px;
-    padding: 0;
-    margin: 0;
+    padding-bottom: 16px;
+    margin-top:25px ;
     outline: none;
+    width: 450px;
     
+}
+#terms{
+    font-size: 12px;
+    font-style: italic;
+    color: grey;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 40px;
 }
 input{
     width: 410px;
@@ -35,12 +44,59 @@ input{
     min-width: 160px;
     padding-left: 8px;
     padding-right: 6px;
+    margin-bottom: 20px;
     border: 1px solid #C1C5C8;
     color: black;
     outline: none;
     border-radius: 3px;
     line-height: 1.3em;
     font-size: 1.2em ;
+}
+#footer1{
+    background-color: #eceef1;
+    color: #8D9096;
+	height: 50px;
+	font-size: 10px;
+	text-align: center;
+	justify-content: center;
+	line-height: 50px;
+    align-content: center;
+    margin-top:90px ;
+
+}
+#logo{
+    width: 400px;
+	display: block;
+    margin-bottom: 14px;
+    height: 150px;
+    align-content: center;
+    margin-left: 700px;
+    padding-top: 150px;
+}
+#footer{
+    color: #505050;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+#footerlinks {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.footer-a:hover {
+    color: black;
+    text-decoration: underline;
+}
+#footercopyright {
+    text-align: center;
+    line-height: 18px;
+}
+li {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 #p1{
     font-size: 40px;
@@ -53,6 +109,7 @@ input{
 }
 #p3{
     font-size: 15px;
+    padding-top: -20px;
 }
 #lock{
     
@@ -70,8 +127,8 @@ input{
 }
 .sub{
     background: #0077c5;
-    width: 360px;
-    height: 40px;
+    width: 426px;
+    height: 60px;
     border: none;
     border-color:#0077c5;
     border-radius: 4px;
@@ -92,13 +149,18 @@ input{
     float: left;
     position: relative;
     text-align: right;
-    padding: 0;
+    padding-right: 10px;
+    padding-top: 0;
+    margin-top: 0;
     outline: none;
     box-sizing: border-box;
 
+
 }
 #btn1{
-    width: fit-content;
+    width: 150px;
+    height: 40px;
+
     
     
 }
@@ -108,6 +170,7 @@ input{
 }
 .rght{
     float: right;
+    margin-right: 20px;
     
 }
     
